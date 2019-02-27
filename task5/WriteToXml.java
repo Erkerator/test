@@ -25,6 +25,7 @@ public class WriteToXml extends WriteToFile {
         return INSTANCE;
     }
 
+    //полиморфизм - переопределеный метод
     @Override
     public void writeToFile(List<Numbers> listOfNumbers, String fileName) throws ParserConfigurationException, TransformerException, FileNotFoundException {
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();

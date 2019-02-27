@@ -1,5 +1,6 @@
 public class Numbers {
 
+    // инкапсуляция состояния
     private int valueOfNumber;
     private boolean isEven;
 

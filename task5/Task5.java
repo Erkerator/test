@@ -30,7 +30,7 @@ public class Task5 {
             e.printStackTrace();
         }
     }
-
+    // инкапсуляция поведения
     private static ArrayList<Numbers> countSequence(int upperLimit) {
         ArrayList<Numbers> resultList = new ArrayList<>();
         for (int i=0; i<upperLimit; i++) {

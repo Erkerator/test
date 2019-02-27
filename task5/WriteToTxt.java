@@ -13,6 +13,7 @@ public class WriteToTxt extends WriteToFile {
         return INSTANCE;
     }
 
+    //полиморфизм - переопределеный метод
     @Override
     public void writeToFile(List<Numbers> listOfNumbers, String fileName) {
         StringBuilder resultText = new StringBuilder();
